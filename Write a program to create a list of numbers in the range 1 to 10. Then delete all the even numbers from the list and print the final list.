@@ -1,0 +1,11 @@
+Num = []
+for i in range(1,11):
+    Num.append(i)
+for index, j in enumerate(Num):
+    if (j % 2 == 0):
+        del Num[index]
+print(Num)        
+
+
+output:
+      [1, 3, 5, 7, 9]
