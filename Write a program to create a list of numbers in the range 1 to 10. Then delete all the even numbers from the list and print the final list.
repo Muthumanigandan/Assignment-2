@@ -1,10 +1,11 @@
 Num = []
+final_list = []
 for i in range(1,11):
     Num.append(i)
-for index, j in enumerate(Num):
-    if (j % 2 == 0):
-        del Num[index]
-print(Num)        
+for j in Num:
+    if (j % 2 != 0):
+       final_list.append(j)  
+print(final_list)         
 
 
 output:
